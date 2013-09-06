@@ -1,0 +1,167 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9em;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.mainbody {
+	background:transparent url(background.jpg) no-repeat;
+	height: 250px;
+}
+
+
+header, section.mainbody, section.features, footer  {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+
+.contentwrapper {
+	width: 1000px;
+	background: none;
+	margin: 0 auto;
+}
+
+
+header ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+header .contentwrapper ul li {
+	width: 100px;
+	float: left;
+}
+
+.navbar {
+	margin: 3px 0 20px 100px;
+	float:left;
+}
+
+.navbar ul li a:hover {
+	color:white;
+	background:#d06a53;
+	padding: 10px 10px 10px 10px;
+	border-radius: 2px
+}
+
+
+li {
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #939393;
+}
+
+
+
+
+#logo{
+	float:left;
+	margin:  25px 0 20px 50px;
+}
+
+/* --------------  BODY AREA  ------------------------*/
+
+h3{
+	color:black;
+}
+
+.mainbody .herocontent {
+	float: left;
+	margin-top:25px;
+}
+
+.mainbody .herocontent .title h3 {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #000;
+	font-weight: 100;
+}
+
+.mainbody .herocontent span {
+	color: green;
+}
+
+#hero {
+	float:left;
+}
+#hero img {
+	width: 350px;
+	height: 220px;
+	padding-left: 80px;
+	margin-top:40px;
+}
+
+.titletext {
+	width: 400px;
+	float: left;
+	font-size: .7em;
+	margin-top: -20px;
+}
+
+.qualitytext p,  .Featurestext p, .Designtext p{
+	font-size: .8em
+}
+
+.qualitytext, .Featurestext, .Designtext, .titletext, p {
+	color: grey;
+}
+
+.qualitytext h3 span {
+	font-weight:900;
+}
+.signup {
+	margin-left: -2px;
+
+}
+
+/* --------------  PRODUCT FEATURES AREA  ------------------------*/
+
+
+.quality , .features , .design{
+	float: left;
+	width: 200px;
+}
+
+.quality {
+	padding-left: 135px;
+}
+
+.features {
+	float:left;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+
+.design {
+	float:left;
+
+
+}
